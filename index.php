@@ -84,41 +84,6 @@
             </div>
         </div> 
     </section>
-    <div class="container">
-            <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>รหัสสินค้า</th>
-                <th>ชื่อสินค้า</th>
-                <th>รายละเอียด</th>
-                <th>ราคา</th>
-                <th>&nbsp;</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-            while ($meResult = mysqli_fetch_assoc($meQuery))
-            {
-            ?>
-                <tr>
-                    <td><img src="images/<?php echo $meResult['product_img_name']; ?>" border="0"></td>
-                    <td><?php echo $meResult['product_code']; ?></td>
-                    <td><?php echo $meResult['product_name']; ?></td>
-                    <td><?php echo $meResult['product_desc']; ?></td>
-                    <td><?php echo number_format($meResult['product_price'],2); ?></td>
-                    <td>
-                        <a class="btn btn-primary btn-lg" href="updatecart.php?itemId=<?php echo $meResult['id']; ?>" role="button">
-                        <span class="glyphicon glyphicon-shopping-cart"></span>
-                        หยิบใส่ตะกร้า</a>
-                    </td>
-                </tr>
-            <?php
-            }
-            ?>
-        </tbody>
-        </table>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

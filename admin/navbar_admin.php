@@ -12,6 +12,7 @@
                         <li class="nav-item"><a class="nav-link text-white" href="#!">About</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="product_admin.php">Product</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="user_admin.php">User</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="order_list.php">Orderlist</a></li>
                     </ul>
                     <div class="d-flex mx-3">
                         <?php

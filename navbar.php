@@ -13,9 +13,6 @@
                         <li class="nav-item ">
                           <a class="nav-link active text-white" aria-current="page" href="index.php">รายการสินค้า</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white" href="order_list.php">รายการสั่งซื้อ</a>
-                        </li>
                     </ul>
                     <div class="d-flex mx-3">
                         <?php
