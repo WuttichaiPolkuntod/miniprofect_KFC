@@ -113,7 +113,7 @@
                 <div class="mb-3 row">
                     <label class="label col-sm-2 com-form-label">รายละเอียด</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form*control" name="details">
+                        <textarea type="text" class="form*control" name="details"></textarea>
                     </div>
                 </div>
                 <div class="mb-3 row">
