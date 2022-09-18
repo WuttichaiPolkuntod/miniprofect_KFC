@@ -22,8 +22,8 @@
   </head>
   <body>
     <?php 
-        include 'navbar.php';
-        include 'connect.php';
+        include 'navbar_admin.php';
+        include '../connect.php';
     ?>
 
     <div class="container">
