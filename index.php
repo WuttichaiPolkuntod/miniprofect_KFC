@@ -73,8 +73,8 @@
                             </div>
                         </div>
                         <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
 
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
                         <a class="btn btn-outline-Light mt-auto text-white" href="updatecart.php?itemId=<?php echo $meResult['pro_id']; ?>" role="button">
                         <span class="glyphicon glyphicon-shopping-cart"></span>
                         add to cart</a>
