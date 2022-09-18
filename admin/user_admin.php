@@ -49,9 +49,6 @@
     }
     # Adduser
 ?> 
-<!DOCTYPE html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <div class="container mt-5 w-75">
 <div class="row">
         <div class="col-4">
